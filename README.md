@@ -21,6 +21,12 @@
 - **Репозиторий:** (укажите URL после создания на GitHub/GitLab)
 - **Figma-макет:** (укажите URL после создания в design/figma-link.txt)
 
+## Отчёт по лабораторной
+
+- Текст отчёта по СТП: `report.json` (редактируемый), скомпилированный DOCX: `report.docx`.
+- Скриншоты для отчёта положите в папку `images/` с именами, указанными в `images/README-SCREENSHOTS.txt`. После добавления скриншотов пересоберите DOCX (например, через MCP bsuir-report: `compile_report("report.json", "report.docx")` или CLI).
+- В `report.json` (или в DOCX вручную) укажите группу, ФИО в metadata и в разделе «Ссылки» — URL репозитория и Figma-макета.
+
 ## Запуск
 
 Откройте `index.html` в браузере или используйте расширение Live Server в VS Code.
